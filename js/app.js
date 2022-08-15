@@ -39,9 +39,9 @@ let sayHiNumber2 = function (number3) {
 
   let longNumbers3 = numbers2[0];
 
-  for (let i = 0; i < numbers2.length; i++) {
-    if (numbers2[i] < longNumbers3) {
-      longNumbers3 = numbers2[i];
+  for (let k = 0; k < numbers2.length; k++) {
+    if (numbers2[k] < longNumbers3) {
+      longNumbers3 = numbers2[k];
     }
   }
 
